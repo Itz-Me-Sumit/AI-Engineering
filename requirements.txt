@@ -1,26 +1,30 @@
-# LangChain Core
+# LangChain
 langchain
 langchain-core
-
-# OpenAI Integration
 langchain-openai
-openai
-
-# Anthropic Integration
 langchain-anthropic
-
-# Google Gemini (PaLM) Integration
 langchain-google-genai
-google-generativeai
-
-# Hugging Face Integration
 langchain-huggingface
-transformers
+
+# OpenAI
+openai==1.30.1
+
+# Anthropic
+anthropic==0.25.0
+
+# Google Gemini
+google-generativeai==0.3.0
+
+# Hugging Face
+transformers==4.37.2
 huggingface-hub
 
-# Environment Variable Management
-python-dotenv
+# Ollama
+ollama==0.1.7
 
-# Machine Learning Utilities
+# Environment Variables
+python-dotenv==1.0.0
+
+# Machine Learning
 numpy
 scikit-learn
