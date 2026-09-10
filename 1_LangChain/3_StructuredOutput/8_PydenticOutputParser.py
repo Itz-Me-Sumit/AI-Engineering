@@ -20,7 +20,7 @@ class Person(BaseModel):
         description = "Name of the person"
     )
     age : Optional[int] = Field(
-        ge = 18 , le = 0,
+        ge = 18 , le = 130,
         description = "Age of person"
     )
     city : Optional[str] = Field(
@@ -32,7 +32,7 @@ parser = PydanticOutputParser(pydantic_object = Person)
 template = PromptTemplate(
     template = "Generate Age , Name and City of a fictional {place} person \n{format_instructions}",
     input_variables = ["place"],
-    partial_variables = {"input_instructions" : parser.get_format_instructions()}
+    partial_variables = {"format_instructions" : parser.get_format_instructions()}
 )
 
 chain = template | model | parser
