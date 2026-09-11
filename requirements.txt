@@ -35,3 +35,6 @@ scikit-learn
 
 # pydantic
 pydantic
+
+
+pypdf
