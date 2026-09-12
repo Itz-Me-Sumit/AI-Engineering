@@ -3,6 +3,7 @@ langchain
 langchain-core
 langchain_classic
 langchain-cummunity
+langchain-text-splitters
 langchain-openai
 langchain-anthropic
 langchain-google-genai
