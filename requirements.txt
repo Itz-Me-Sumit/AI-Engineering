@@ -4,6 +4,7 @@ langchain-core
 langchain_classic
 langchain-cummunity
 langchain-text-splitters
+langchain-chroma
 langchain-openai
 langchain-anthropic
 langchain-google-genai
@@ -39,3 +40,7 @@ pydantic
 
 
 pypdf
+
+chromadb
+
+tiktoken
