@@ -2,7 +2,7 @@
 langchain
 langchain-core
 langchain_classic
-langchain-cummunity
+langchain-community
 langchain-text-splitters
 langchain-chroma
 langchain-openai
@@ -44,3 +44,7 @@ pypdf
 chromadb
 
 tiktoken
+
+faiss-cpu
+
+wikipedia
