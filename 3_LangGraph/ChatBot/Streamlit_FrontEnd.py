@@ -9,12 +9,10 @@ CONFIG = {
     }
 }
 
-if "messege_history" not in st.session_state:
+if "message_history" not in st.session_state:
     st.session_state["message_history"] = []
 
 for message in st.session_state["message_history"]:
-    with st.chat_message(message["role"]):
-        st.text(message["content"])
     with st.chat_message(message["role"]):
         st.text(message["content"])
 
@@ -35,16 +33,21 @@ if user_input:
     initial_state = {
         "messages" : [HumanMessage(content = user_input)]
     }
-    response = chatbot.invoke(
-        initial_state,
-        config = CONFIG
-    )
-    ai_message = response["messages"][-1].content
-    st.session_state["message_history"].append({
-        "role" : "assistant",
-        "content" : ai_message
-    })
-    with st.chat_message("assistent"):
-        st.text(ai_message)
-    
 
+    with st.chat_message("assistant"):
+
+        response_stream = chatbot.stream(
+            initial_state,
+            config = CONFIG,
+            stream_mode = "messages"
+        )
+
+
+        ai_message = st.write_stream(
+            message_chunk.content for message_chunk , metadata in response_stream
+        )
+
+        st.session_state["message_history"].append({
+            "role" : "assistant",
+            "content" : ai_message
+        })
