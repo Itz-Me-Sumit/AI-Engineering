@@ -20,7 +20,7 @@ def chat_node(state : ChatState):
     messages = state["messages"]
     response = llm.invoke(messages)
     return {
-        "messages" : response.content
+        "messages" : [response]
     }
 
 
@@ -38,5 +38,4 @@ graph.add_edge("chat_node" , END)
 
 checkpointer = InMemorySaver()
 
-graph.compile()
-
+chatbot = graph.compile(checkpointer = checkpointer)
