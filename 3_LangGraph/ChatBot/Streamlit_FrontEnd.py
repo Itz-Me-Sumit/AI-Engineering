@@ -1,6 +1,6 @@
 import streamlit as st
 from langchain_core.messages import HumanMessage
-from LangGraph_BackEnd import chatbot
+from LangGraph_BackEnd import chatbot , retrive_all_threads
 import uuid
 
 
@@ -34,6 +34,9 @@ def load_conversation(thread_id):
 
     return state.values.get("messages", [])
 
+
+
+
 # ---Session---
 if "message_history" not in st.session_state:
     st.session_state["message_history"] = []
@@ -42,9 +45,10 @@ if "thread_id" not in st.session_state:
     st.session_state["thread_id"] = generate_thread_id()
 
 if "chat_threads" not in st.session_state:
-    st.session_state["chat_threads"] = []
+    st.session_state["chat_threads"] = retrive_all_threads()
 
 add_thread(st.session_state["thread_id"])
+
 
 
 
@@ -56,7 +60,7 @@ if st.sidebar.button("New Chat"):
 
 st.sidebar.header("My Conversations")
 
-for thread_id in st.session_state["chat_threads"]:
+for thread_id in st.session_state["chat_threads"][::-1]:
     if st.sidebar.button(str(thread_id)):
         st.session_state["thread_id"] = thread_id
         messages = load_conversation(thread_id)
@@ -73,8 +77,10 @@ for thread_id in st.session_state["chat_threads"]:
             })
         st.session_state["message_history"] = temp_messages
 
-# ---CONFIG---
 
+
+
+# ---CONFIG---
 CONFIG = {
     "configurable" : {
         "thread_id" : st.session_state["thread_id"]
