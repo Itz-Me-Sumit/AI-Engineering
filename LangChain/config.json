@@ -1,0 +1,22 @@
+{
+    "provider" : "openrouter",
+
+    "openrouter" : {
+        "model" : "openrouter/free",
+        "temprature" : 0.7,
+        "max_tokens" : 1024
+    },
+
+    "gemini" : {
+        "model" : "gemini-3.6-flash",
+        "temprature" : 0.7,
+        "max_tokens" : 800
+    },
+
+    "openai" : {
+        "model" : "gpt-4.1-mini",
+        "temprature" : 0.7,
+        "max_tokens" : 720
+    }
+
+}

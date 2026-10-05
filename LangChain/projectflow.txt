@@ -1,0 +1,16 @@
+1. Run template.py to setup the project structure
+2. Add code/content to below files:
+--------------------
+requirements.txt
+.env
+config.json
+llm_client.py
+utils/logger.py
+utils/file_loader.py
+utils/helpers.py
+utils/common.py
+README.md
+--------------------
+
+3. Create venv and install dependencies
+4. Add a test-app.py to do a smoke test
