@@ -17,7 +17,7 @@ You can follow the path in order or jump into any repository directly.
 ## Repositories
 
 ### 1. GenAI
-Link: https://github.com/<username>/GenAI
+Link: https://github.com/Itz-Me-Sumit/GenAI
 
 The foundation layer. Covers everything you need to build LLM applications with LangChain.
 
@@ -34,7 +34,7 @@ Best for: anyone starting with LLM application development.
 ---
 
 ### 2. Advanced RAG
-Link: https://github.com/<username>/Advanced-RAG
+Link: https://github.com/Itz-Me-Sumit/Advance-RAG
 
 Goes beyond basic retrieval. Focuses on making RAG systems accurate, scalable and production-ready.
 
@@ -50,7 +50,7 @@ Best for: engineers who want reliable question-answering over private data.
 ---
 
 ### 3. Agentic AI
-Link: https://github.com/<username>/Agentic-AI
+Link: https://github.com/Itz-Me-Sumit/Agentic-AI
 
 Building systems that reason, use tools and act autonomously.
 
