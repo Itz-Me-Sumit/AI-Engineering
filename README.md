@@ -68,7 +68,7 @@ Best for: engineers building assistants, copilots and workflow automation.
 ## Tech Stack
 
 - Language: Python
-- Frameworks: LangChain, LangGraph
+- Frameworks: LangChain, LangGraph , Pydantic , Streamlit
 - Protocols: MCP
 - Vector stores: FAISS, Chroma (and others used per repo)
 - LLM providers: OpenAI, Anthropic, Google, open-source models via OpenRouter / Hugging Face
@@ -87,7 +87,7 @@ Best for: engineers building assistants, copilots and workflow automation.
 ## Author
 
 Sumit
-GitHub: https://github.com/<username>
-LinkedIn: <your-linkedin-link>
+GitHub: https://github.com/Itz-Me-Sumit
+LinkedIn: [<your-linkedin-link>](https://www.linkedin.com/in/sumit-kumar-809687360/)
 
 If this repository helps you, consider giving it a star.
