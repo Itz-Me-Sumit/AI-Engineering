@@ -87,7 +87,8 @@ Best for: engineers building assistants, copilots and workflow automation.
 ## Author
 
 Sumit
-GitHub: https://github.com/Itz-Me-Sumit
-LinkedIn: https://www.linkedin.com/in/sumit-kumar-809687360/
+- GitHub: https://github.com/Itz-Me-Sumit
+
+- LinkedIn: https://www.linkedin.com/in/sumit-kumar-809687360/
 
 If this repository helps you, consider giving it a star.
