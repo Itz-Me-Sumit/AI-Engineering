@@ -1,0 +1,7 @@
+Retrieval-Augmented Generation (RAG) combines retrieval systems with Large Language Models.
+
+Instead of relying only on the model's internal knowledge, RAG retrieves relevant documents from an external knowledge base.
+
+The retrieved context is supplied to the LLM before generating the final response.
+
+This improves factual accuracy and reduces hallucinations.

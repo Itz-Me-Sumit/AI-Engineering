@@ -13,7 +13,7 @@ langchain-google-genai>=4.2.7,<5.0.0
 langchain-ollama
 langchain_anthropic
 langchain-openrouter
-
+langchain-community
 # ============================
 # Environment Variables
 # ============================

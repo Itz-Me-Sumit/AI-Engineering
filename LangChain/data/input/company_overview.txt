@@ -1,0 +1,7 @@
+ABC Technologies is an Artificial Intelligence consulting company.
+
+The company specializes in Machine Learning, Generative AI, Large Language Models, and MLOps.
+
+Its primary clients include healthcare, banking, insurance and retail organizations.
+
+ABC Technologies develops Retrieval-Augmented Generation (RAG) systems, AI Agents and enterprise chatbots.

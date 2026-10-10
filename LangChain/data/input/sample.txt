@@ -1,0 +1,9 @@
+Artificial Intelligence (AI) enables machines to perform tasks that normally require human intelligence.
+
+Machine Learning is a subset of AI where systems learn patterns from historical data.
+
+Deep Learning uses neural networks with multiple layers to solve complex problems such as image recognition and natural language processing.
+
+Generative AI is capable of creating new content including text, images, audio and code.
+
+Large Language Models (LLMs) such as GPT and Gemini are examples of Generative AI systems.

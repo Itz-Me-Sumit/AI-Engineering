@@ -19,7 +19,7 @@ def main():
 
     print(f"Total Documents Loaded : {len(documents)}")
 
-    print(f"First Document : \n{documents[0].page_content}")
+    print(f"First Document : \n{documents[0]}")
 
 
 if __name__ == "__main__":
