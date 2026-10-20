@@ -1,0 +1,6 @@
+ticket_id,product,severity,status,opened_at,resolution_hours,summary
+TN-1042,NovaDesk,2,Resolved,2026-01-08T14:20:00Z,5.5,SSO metadata mismatch after certificate rotation
+TN-1048,NovaFlow,3,Resolved,2026-01-10T09:05:00Z,11.2,Workflow paused after invalid date input
+TN-1051,NovaSecure,1,Resolved,2026-01-12T03:15:00Z,1.1,Regional dashboard unavailable
+TN-1064,NovaDesk,3,Open,2026-01-18T16:40:00Z,,Export displays timestamps in UTC
+TN-1070,NovaFlow,2,Monitoring,2026-01-20T11:00:00Z,3.8,Webhook retries delayed

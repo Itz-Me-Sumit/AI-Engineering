@@ -1,0 +1,32 @@
+[
+  {
+    "incident_id": "INC-2025-07",
+    "date": "2025-03-14",
+    "service": "NovaFlow",
+    "severity": 2,
+    "duration_minutes": 47,
+    "cause": "Queue partition imbalance",
+    "customer_data_affected": false,
+    "action": "Added partition saturation alerts"
+  },
+  {
+    "incident_id": "INC-2025-11",
+    "date": "2025-05-22",
+    "service": "NovaDesk",
+    "severity": 1,
+    "duration_minutes": 31,
+    "cause": "Expired internal certificate",
+    "customer_data_affected": false,
+    "action": "Automated certificate expiry checks"
+  },
+  {
+    "incident_id": "INC-2026-02",
+    "date": "2026-01-12",
+    "service": "NovaSecure",
+    "severity": 1,
+    "duration_minutes": 54,
+    "cause": "Read replica failover regression",
+    "customer_data_affected": false,
+    "action": "Expanded regional failover tests"
+  }
+]

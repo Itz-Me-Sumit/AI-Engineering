@@ -1,0 +1,17 @@
+TECHNOVA SUPPORT FAQ — January 2026
+
+Standard support hours are Monday-Friday, 08:00-18:00 Central Time,
+excluding company holidays. Premium support is available 24x7.
+
+Severity 1 means a production service is unavailable for most users with
+no workaround. Initial response targets are 30 minutes for Premium and
+2 hours for Standard. Severity 2 targets are 2 hours for Premium and
+8 business hours for Standard.
+
+Customers can reset an administrator password from Settings > Identity
+when at least one other administrator is active. If all administrators
+are locked out, an authorized account contact must open a support case.
+
+NovaDesk exports are retained for 7 days. Deleted tickets remain in the
+recovery area for 30 days. NovaFlow failed runs can be replayed for 14
+days. Status notices are posted at status.technova.example.

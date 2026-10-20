@@ -1,0 +1,73 @@
+[
+  {
+    "id": "q01",
+    "question": "How many wellness days do employees receive?",
+    "answer": "5 paid wellness days",
+    "sources": [
+      "employee_handbook.md"
+    ]
+  },
+  {
+    "id": "q02",
+    "question": "What is NovaFlow Scale's monthly price?",
+    "answer": "$899 per workspace per month",
+    "sources": [
+      "products_and_pricing.md",
+      "products.csv"
+    ]
+  },
+  {
+    "id": "q03",
+    "question": "How long are webhook idempotency keys retained?",
+    "answer": "24 hours",
+    "sources": [
+      "technical_architecture.md"
+    ]
+  },
+  {
+    "id": "q04",
+    "question": "Who leads the Security department?",
+    "answer": "Jordan Blake",
+    "sources": [
+      "company_overview.md",
+      "department_directory.md"
+    ]
+  },
+  {
+    "id": "q05",
+    "question": "What was FY2025 revenue?",
+    "answer": "$48.6 million",
+    "sources": [
+      "annual_report_2025.md",
+      "technova_annual_summary.pdf"
+    ]
+  },
+  {
+    "id": "q06",
+    "question": "Can customer content train shared models by default?",
+    "answer": "No; explicit written opt-in is required",
+    "sources": [
+      "security_policy.md"
+    ]
+  },
+  {
+    "id": "q07",
+    "question": "Which product is owned by the department led by Jordan Blake, and what is its Advanced monthly price?",
+    "answer": "NovaSecure; $2,400 per organization per month",
+    "sources": [
+      "department_directory.md",
+      "product_ownership.csv",
+      "products.csv"
+    ],
+    "bridge_entity": "Security"
+  },
+  {
+    "id": "q08",
+    "question": "According to the labeled review-cadence image, how often does NovaSecure Advanced review privileged access?",
+    "answer": "Every 90 days",
+    "sources": [
+      "novasecure_review_cadence.png",
+      "image_catalog.csv"
+    ]
+  }
+]

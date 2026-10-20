@@ -1,0 +1,13 @@
+source,relation,target
+Elena Rossi,leads,Customer Success
+Customer Success,owns,NovaDesk
+Customer Success,owns,support
+Customer Success,maintains,knowledge search
+NovaDesk,provides,knowledge search
+Omar Singh,leads,Engineering
+Engineering,owns,NovaFlow
+Jordan Blake,leads,Security
+Security,owns,NovaSecure
+TechNova,offers,NovaDesk
+TechNova,offers,NovaFlow
+TechNova,offers,NovaSecure

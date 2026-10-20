@@ -1,0 +1,8 @@
+source_id,path,caption,image_only_fact,department,year,access,product
+TN-IMG-001,images/fy2025_revenue_mix.png,Labeled four-bar FY2025 financial highlights chart,The chart orders total revenue then subscription revenue then cash then net loss.,Finance and Administration,2025,internal,All
+TN-IMG-002,images/platform_architecture.png,Three-stage platform architecture diagram,The diagram has two upstream components feeding one downstream component.,Engineering,2026,internal,All
+TN-IMG-003,images/technova_dashboard_metrics.png,Four-bar dashboard metrics chart,The blue metric is highest and the red metric is lowest.,Customer Success,2025,internal,NovaDesk
+TN-IMG-004,images/technova_product_revenue.png,Labeled three-bar product revenue mix chart,NovaDesk is the largest product revenue bar followed by NovaFlow and NovaSecure.,Finance and Administration,2025,public,All
+TN-IMG-005,images/technova_rag_architecture.png,Labeled four-node RAG architecture diagram,The central retrieval node connects ingestion generation and evaluation.,Engineering,2026,internal,NovaDesk
+TN-IMG-006,images/technova_vectorflow_architecture.png,Legacy four-node VectorFlow architecture diagram,This image is retained as a restricted legacy sample and is not canonical product data.,Engineering,2024,restricted,All
+TN-IMG-007,images/novasecure_review_cadence.png,Labeled NovaSecure access-review cadence card,NovaSecure Advanced schedules privileged-access reviews every 90 days.,Security,2026,customer,NovaSecure

@@ -1,0 +1,27 @@
+source_id,path,title,department,year,access,product,doc_type
+TN-DOC-001,documents/company_overview.md,Company Overview,People Operations,2026,internal,All,markdown
+TN-DOC-002,documents/employee_handbook.md,Employee Handbook,People Operations,2025,internal,All,markdown
+TN-DOC-003,documents/products_and_pricing.md,Products and Pricing,Finance and Administration,2026,public,All,markdown
+TN-DOC-004,documents/security_policy.md,Information Security Policy,Security,2026,internal,NovaSecure,markdown
+TN-DOC-005,documents/technical_architecture.md,Platform Technical Notes,Engineering,2026,internal,NovaFlow,markdown
+TN-DOC-006,documents/annual_report_2025.md,FY2025 Annual Report,Finance and Administration,2025,public,All,markdown
+TN-DOC-007,documents/department_directory.md,Department Directory,People Operations,2026,internal,All,markdown
+TN-DOC-008,documents/support_faq.txt,Support FAQ,Customer Success,2026,public,NovaDesk,text
+TN-PDF-001,pdfs/technova_annual_summary.pdf,FY2025 Annual Summary,Finance and Administration,2025,public,All,pdf
+TN-PDF-002,pdfs/novasecure_quickstart.pdf,NovaSecure Quick Start,Security,2026,customer,NovaSecure,pdf
+TN-IMG-001,images/fy2025_revenue_mix.png,FY2025 Revenue Mix,Finance and Administration,2025,internal,All,image
+TN-IMG-002,images/platform_architecture.png,Platform Architecture,Engineering,2026,internal,NovaFlow,image
+TN-IMG-003,images/technova_dashboard_metrics.png,Dashboard Metrics,Customer Success,2025,internal,NovaDesk,image
+TN-IMG-004,images/technova_product_revenue.png,Product Revenue,Finance and Administration,2025,public,All,image
+TN-IMG-005,images/technova_rag_architecture.png,RAG Architecture,Engineering,2026,internal,NovaDesk,image
+TN-IMG-006,images/technova_vectorflow_architecture.png,Legacy VectorFlow Architecture,Engineering,2024,restricted,All,image
+TN-IMG-007,images/novasecure_review_cadence.png,NovaSecure Review Cadence,Security,2026,customer,NovaSecure,image
+TN-TBL-001,tables/products.csv,Product Plans and Pricing,Finance and Administration,2026,internal,All,csv
+TN-TBL-002,tables/departments.csv,Department Metrics,People Operations,2025,internal,All,csv
+TN-TBL-003,tables/support_tickets.csv,Support Tickets,Customer Success,2026,restricted,All,csv
+TN-TBL-004,tables/product_ownership.csv,Product Ownership,Finance and Administration,2026,internal,All,csv
+TN-DB-001,tables/technova.db,TechNova Relational Database,Engineering,2026,restricted,All,sqlite
+TN-JSON-001,sample_data/customer_scenarios.json,Customer Scenarios,Sales and Marketing,2026,internal,All,json
+TN-JSON-002,sample_data/evaluation_questions.json,Evaluation Questions,Engineering,2026,internal,All,json
+TN-JSON-003,sample_data/incidents.json,Service Incidents,Security,2026,restricted,All,json
+TN-GRAPH-001,technova_graph.csv,TechNova Relationship Graph,Engineering,2026,internal,All,csv

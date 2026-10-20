@@ -1,0 +1,23 @@
+[
+  {
+    "customer": "BluePeak Logistics",
+    "employees": 430,
+    "need": "access reviews",
+    "region": "US",
+    "suggested_product": "NovaSecure Standard"
+  },
+  {
+    "customer": "Northstar Health Labs",
+    "support_agents": 65,
+    "need": "SSO and ticket knowledge",
+    "region": "EU",
+    "suggested_product": "NovaDesk Business"
+  },
+  {
+    "customer": "Cedar Retail Group",
+    "workflows": 74,
+    "need": "approval automation",
+    "region": "US",
+    "suggested_product": "NovaFlow Scale"
+  }
+]
